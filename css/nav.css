@@ -561,18 +561,18 @@ header {
     padding-bottom: 10px;
     text-transform: capitalize;
   }
-  .content-header::after,
+  /* .content-header::after,
   .content-header::before {
     content: "";
     position: absolute;
     background-color: rgb(53, 36, 11);
     height: 90px;
     width: 100vw;
-    bottom: 140px;
+    bottom: 100px;
     right: 0px;
     left: 0px;
     transform: skewY(-3deg);
-  }
+  } */
   .trade-platform {
     clear: both;
     position: relative;
