@@ -417,15 +417,14 @@ header {
 /* Responsiveness for tablets and other devices*/
 @media (max-width: 500px) {
   header {
-    height: 10px !important;
-    width: 10px;
-    background-color: red !important;
+    height: 90vh !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
   header {
     height: 120vh;
+    background: green;
   }
   .nav ul {
     width: 100%;
