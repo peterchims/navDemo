@@ -415,7 +415,15 @@ header {
 }
 
 /* Responsiveness for tablets and other devices*/
-@media (max-width: 768px) {
+@media (max-width: 500px) {
+  header {
+    height: 10px !important;
+    width: 10px;
+    background-color: red !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   header {
     height: 120vh;
   }
@@ -627,8 +635,3 @@ header {
   }
 }
 /* small mobile devices */
-@media (max-width: 500px) {
-  header {
-    height: 80vh;
-  }
-}
