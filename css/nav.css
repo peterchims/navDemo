@@ -1,3 +1,4 @@
+@import "./font.css";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,7 +9,15 @@ body {
 }
 header {
   height: 90vh;
-  background: rgb(53, 36, 11);
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../img/21-213153_forex-trading-account-forex-trading.jpg");
+  background-position: center;
+  background-size: cover cover;
+  background-repeat: no-repeat;
 }
 .nav ul {
   margin: 0 auto;
@@ -18,6 +27,7 @@ header {
   flex-direction: row !important;
   align-items: center;
   justify-content: center;
+  font-family: "Montserrat-Light.ttf";
   background: rgba(3, 2, 2, 0.1);
   /* border: 1px solid lightslategray; */
   border-radius: 10px;
@@ -28,7 +38,7 @@ header {
 .nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 100;
   text-align: center;
 }
@@ -59,13 +69,14 @@ header {
 }
 .content-header .content h1 {
   width: 30vw;
-  color: #fff;
-  font-size: 1.7rem;
+  color: rgb(202, 202, 202);
+  font-size: 2rem;
   font-weight: 500;
   z-index: 1;
+  font-family: "Roboto-Black.ttf";
 }
 .btn-demo {
-  background-color: rgb(0, 0, 0);
+  background: rgb(80, 56, 56);
   position: relative;
   top: 20px;
   border: 0px;
@@ -90,6 +101,7 @@ header {
   display: flex;
   flex-direction: column;
   position: relative;
+  height: 68vh !important;
   bottom: 85px;
   padding-bottom: 40px;
   padding-right: 20px;
@@ -103,32 +115,35 @@ header {
 }
 .form-control h3 {
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.6rem;
   width: 25vw;
+  position: relative;
+  top: 5px;
   font-weight: 200;
   padding-left: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: "Roboto-Black.ttf";
 }
 .form-control p {
   color: black;
   font-weight: 100;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
+  position: relative;
+  top: 5px;
   padding-bottom: 10px;
   text-transform: capitalize;
+  font-family: "Montserrat-Light.ttf";
 }
 .form-control form {
   display: flex;
   flex-direction: column;
   padding-top: 5px;
 }
-.form-control form label {
-  text-transform: capitalize;
-  font-size: 0.95rem;
-  padding-bottom: 5px;
-  padding-top: 5px;
-}
+
 .form-control form input {
+  position: relative;
+  top: 1px;
   background: transparent;
   border: 1px solid black;
   padding: 13px;
@@ -136,32 +151,46 @@ header {
   border-bottom-right-radius: 10px;
   outline: none;
 }
+.form-control form input::placeholder {
+  font-family: "Montserrat-Light.ttf";
+}
+.form-control form input:focus {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid #000;
+  transition: 2s ease-in;
+}
+
 .btn-demo-submit {
-  background-color: rgb(0, 0, 0);
+  background: rgb(80, 56, 56);
   position: relative;
   top: 20px;
   border: 0px;
   padding: 10px;
   padding-right: 50px !important;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
   border-radius: 5px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   outline: none;
+  font-family: "Montserrat-Light.ttf";
 }
 .content-header::after,
 .content-header::before {
   content: "";
   position: absolute;
-  background-color: rgb(53, 36, 11);
-  height: 70px;
-  width: 99vw;
-  bottom: -120px;
+  background: rgb(255, 255, 255);
+  height: 100px;
+  width: calc(99vw + 1px);
+  outline: hidden;
+  bottom: -150px;
   right: 0px;
   left: 0px;
-  transform: skewY(-3deg);
+  transform: skewY(-5deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
 }
 .trade-platform {
   clear: both;
@@ -175,11 +204,13 @@ header {
   font-size: 1.55rem;
   font-weight: 500;
   text-transform: capitalize;
+  font-family: "Roboto-Black.ttf";
 }
 .trade-platform .container .trade-header-content p {
   text-align: center;
   font-size: 0.85rem;
   font-weight: 80;
+  font-family: "Montserrat-Light.ttf";
 }
 .trade-packages .container {
   display: flex;
@@ -190,6 +221,8 @@ header {
 }
 .trade-packages .container div h2 {
   padding: 30px;
+  font-family: "Montserrat-Medium.ttf";
+  text-align: center;
 }
 .trade-packages .container .trade-beginner,
 .trade-packages .container .trade-expert,
@@ -206,8 +239,11 @@ header {
   position: relative;
   bottom: 20px;
   text-align: center;
+  font-family: "Montserrat-Light.ttf";
   font-size: 0.65rem;
   font-style: italic;
+  font-weight: 800;
+  left: -15px;
 }
 .trade-packages .container .trade-beginner ul,
 .trade-packages .container .trade-expert ul,
@@ -220,30 +256,39 @@ header {
 .trade-packages .container .trade-mediate ul li {
   margin-left: 40px;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 900;
   padding: 5px;
+  font-family: "Montserrat-Light.ttf";
   text-transform: capitalize;
 }
 .trade-beginner .btn-subscribe {
-  padding: 10px;
-  margin-left: 40px;
-  background: #000;
+  padding: 15px;
+  margin-left: 20px;
+  background: rgb(80, 56, 56);
   text-align: center;
   width: 20vw;
+  font-family: "Montserrat-Light.ttf";
   color: #fff;
+  font-weight: 800;
+  font-size: 1.1rem;
   border: 0px;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .trade-expert .btn-subscribe,
 .trade-mediate .btn-subscribe {
-  padding: 10px;
-  margin-left: 35px;
-  background: #000;
+  padding: 15px;
+  margin-left: 30px;
+  background: rgb(80, 56, 56);
+  font-family: "Montserrat-Light.ttf";
   text-align: center;
-  width: 23vw;
+  font-weight: 800;
+  font-size: 1.1rem;
+  width: 21vw;
   color: #fff;
   border: 0px;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .trade-packages .container .trade-mediate {
   background: rgb(255, 255, 255);
@@ -262,7 +307,9 @@ header {
   width: 23vw;
   margin: 0 auto;
   padding: 5px 5px;
+  font-family: "Montserrat-Light.ttf";
   font-style: italic;
+  font-weight: 800;
 }
 .trade-packages .container .trade-expert {
   background: rgb(255, 255, 255);
@@ -282,6 +329,8 @@ header {
   margin: 0 auto;
   padding: 5px 5px;
   font-style: italic;
+  font-weight: 800;
+  font-family: "Montserrat-Light.ttf";
 }
 /* Subscribe platform styling */
 .subscribe {
@@ -296,6 +345,7 @@ header {
   text-transform: capitalize;
   font-weight: 400;
   font-size: 2rem;
+  font-family: "Roboto-Black.ttf";
 }
 .subscribe .container .subscribe-content-disp {
   display: flex;
@@ -327,8 +377,9 @@ header {
 .subscribe .container .subscribe-content-disp .content h3 {
   text-align: center;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: capitalize;
+  font-family: "Montserrat-Light.ttf";
 }
 .subscribe-content-disp .content .img-resize {
   height: 100px;
@@ -348,11 +399,12 @@ header {
   /* padding: 20px; */
 }
 .footer h3 {
-  font-size: 0.95rem;
-  text-transform: lowercase;
+  font-size: 1.2rem;
+  text-transform: capitalize;
   font-weight: 400;
   padding-top: 30px;
   text-align: center;
+  font-family: "Roboto-Black.ttf";
 }
 .footer .container .footer-content p {
   margin: 0 auto;
@@ -363,12 +415,14 @@ header {
   padding-left: 20px;
   color: #999;
   text-align: left;
+  font-family: "Montserrat-Medium.ttf";
 }
 .footer .container .footer-socials {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-left: 100px;
   text-align: center;
+  font-family: "Montserrat-Medium.ttf";
 }
 .footer .container .footer-socials ul {
   display: flex;
@@ -378,24 +432,29 @@ header {
 .footer .container .footer-socials ul li {
   margin-top: 10px;
   padding: 10px;
-  transition: 0.4s ease-out;
+  /* transition: 0.4s ease-out; */
 }
-.footer .container .footer-socials ul li:hover a {
+.footer .container .footer-socials ul li a:hover {
   overflow: hidden;
   background-color: rgb(241, 241, 241);
   padding: 10px;
   color: #000;
-  transition: 2s ease-out;
+  transition: 0.77s ease-out;
 }
 .footer .container .footer-socials ul li a {
   text-decoration: none;
   color: rgb(226, 226, 226);
   font-weight: 500;
   font-size: 0.9rem;
+  font-family: "Montserrat-Light.ttf";
+  transition: 0.77s ease-out;
 }
 .footer-subscribe {
   margin-top: 30px;
   margin-left: 100px;
+}
+.footer-subscribe p {
+  font-family: "Montserrat-Medium.ttf";
 }
 .footer-subscribe input[type="email"] {
   padding: 10px;
@@ -417,14 +476,11 @@ header {
 /* Responsiveness for tablets and other devices*/
 @media (max-width: 500px) {
   header {
-    height: 90vh !important;
+    height: 80vh !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    height: 120vh;
-  }
   .nav ul {
     width: 100%;
     border: 0px;
@@ -432,6 +488,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .nav ul li {
+    padding: 15px;
+    font-size: 0.55rem;
+  }
+  .nav ul li a {
+    font-size: 0.75rem;
+    padding: 0px;
   }
   .content-header {
     width: 100%;
@@ -449,7 +513,7 @@ header {
     font-size: 1.5rem;
     font-weight: 500;
     z-index: 1;
-    margin-top: -50px;
+    margin-top: 30px;
   }
   .btn-demo {
     background-color: rgb(0, 0, 0);
@@ -470,7 +534,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 45px;
+    top: 150px;
     padding-bottom: 40px;
     padding-right: 20px;
     padding-left: 20px;
@@ -520,8 +584,8 @@ header {
     text-align: center;
     margin: 0 auto;
     font-size: 1rem;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
     font-weight: 100;
     text-transform: capitalize;
   }
@@ -612,7 +676,7 @@ header {
     border-top: 1px solid #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
     text-align: center;
   }
   .footer .container .footer-subscribe {

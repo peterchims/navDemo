@@ -1,0 +1,16 @@
+@font-face {
+  src: url("../montserratFont/Montserrat-Light.ttf");
+  font-family: "Montserrat-Light.ttf";
+}
+@font-face {
+  src: url("../montserratFont/Montserrat-Medium.ttf");
+  font-family: "Montserrat-Medium.ttf";
+}
+@font-face {
+  src: url("./Noto/NotoSansJP-Medium.otf");
+  font-family: "NotoSansJP-Medium.otf";
+}
+@font-face {
+  src: url("./roboto/Roboto-Black.ttf");
+  font-family: "Roboto-Black.ttf";
+}
