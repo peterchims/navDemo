@@ -545,11 +545,11 @@ header {
     padding-right: 20px !important;
     padding-left: 20px !important;
     padding-bottom: 0px !important;
-    height: 55vh !important;
+    height: 50vh !important;
     border-radius: 10px;
     z-index: 1;
     left: -370px;
-    top: 100px;
+    top: 130px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
   }
