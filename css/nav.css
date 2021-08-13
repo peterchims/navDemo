@@ -551,7 +551,7 @@ header {
     height: 45vh !important;
     border-radius: 10px;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(226, 32, 32);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   }
   .form-control h3 {
