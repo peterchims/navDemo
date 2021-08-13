@@ -776,7 +776,7 @@ header {
   }
   .footer h3 {
     position: relative;
-    bottom: 15px !important;
+    bottom: -5px !important;
     width: 100%;
     padding: 10px;
   }
