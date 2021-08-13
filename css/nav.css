@@ -542,17 +542,14 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 150px;
-    left: -370px;
-    padding: 0px !important;
     padding-right: 20px !important;
     padding-left: 20px !important;
-    padding-bottom: 0px !important;
-    height: 45vh !important;
+    padding-bottom: 90px !important;
+    height: 55vh !important;
     border-radius: 10px;
     z-index: 1;
-    background-color: rgb(226, 32, 32);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
   }
   .form-control h3 {
     text-align: left;
