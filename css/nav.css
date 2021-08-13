@@ -516,7 +516,7 @@ header {
     margin-top: 30px;
   }
   .btn-demo {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(80, 56, 56);
     position: relative;
     top: 20px;
     border: 0px;
@@ -535,13 +535,8 @@ header {
     flex-direction: column;
     position: relative;
     top: 150px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     left: -370px;
+    height: 55vh !important;
     border-radius: 10px;
     z-index: 1;
   }
@@ -561,18 +556,18 @@ header {
     padding-bottom: 10px;
     text-transform: capitalize;
   }
-  /* .content-header::after,
+  .content-header::after,
   .content-header::before {
     content: "";
     position: absolute;
-    background-color: rgb(53, 36, 11);
-    height: 90px;
+    background-color: #fff;
+    height: 95px;
     width: 100vw;
-    bottom: 100px;
+    bottom: 120px;
     right: 0px;
     left: 0px;
     transform: skewY(-3deg);
-  } */
+  }
   .trade-platform {
     clear: both;
     position: relative;
