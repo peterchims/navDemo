@@ -594,8 +594,14 @@ header {
   .trade-platform {
     clear: both;
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
     z-index: 1;
+  }
+  .trade-packages .container .trade-beginner .btn-subscribe {
+    width: 70vw;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 10px !important;
   }
   .trade-platform .container .trade-header-content h2 {
     color: #333;
@@ -656,8 +662,7 @@ header {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   }
   .trade-packages .container .trade-mediate .btn-subscribe,
-  .trade-packages .container .trade-expert .btn-subscribe,
-  .trade-packages .container .trade-beginner .btn-subscribe {
+  .trade-packages .container .trade-expert .btn-subscribe {
     text-align: center;
     width: 65vw;
     font-size: 1rem;
