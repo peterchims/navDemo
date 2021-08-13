@@ -533,7 +533,7 @@ header {
   .btn-demo-submit {
     background: rgb(80, 56, 56);
     position: relative;
-    top: 30px;
+    top: -10px;
     padding: 10px;
     font-size: 1.3rem;
     font-family: "Montserrat-Light.ttf";
@@ -544,8 +544,8 @@ header {
     position: relative;
     padding-right: 20px !important;
     padding-left: 20px !important;
-    padding-bottom: 0px !important;
-    height: 50vh !important;
+    padding-bottom: 20px !important;
+    height: 48vh !important;
     border-radius: 10px;
     z-index: 1;
     left: -370px;
@@ -558,7 +558,7 @@ header {
     font-size: 1.3rem;
     width: 70vw;
     position: relative;
-    top: 12px;
+    top: 2px;
     font-weight: 200;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -571,10 +571,12 @@ header {
     padding-bottom: 10px;
     text-transform: capitalize;
     font-family: "Montserrat-Light.ttf";
+    position: relative;
+    top: -5px;
   }
   .form-control form input {
     position: relative;
-    top: 15px;
+    top: -10px;
   }
   .content-header::after,
   .content-header::before {
