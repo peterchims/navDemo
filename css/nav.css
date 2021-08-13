@@ -533,7 +533,7 @@ header {
   .btn-demo-submit {
     background: rgb(80, 56, 56);
     position: relative;
-    top: -10px;
+    top: 10px;
     padding: 10px;
     font-size: 1.3rem;
     font-family: "Montserrat-Light.ttf";
