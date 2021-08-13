@@ -742,7 +742,8 @@ header {
   .footer .container .border {
     position: relative;
     top: 20px !important;
-    width: 96% !important;
+    left: 30px !important;
+    width: 80% !important;
     border-top: 1px solid rgb(219, 219, 219) !important;
   }
   .footer .container .footer-socials p {
