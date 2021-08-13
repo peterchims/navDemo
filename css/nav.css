@@ -767,11 +767,11 @@ header {
     background: red;
     position: absolute;
     left: 170px !important;
-    bottom: 10px;
+    bottom: 15px !important;
   }
   .footer h3 {
     position: relative;
-    bottom: 15px !important;
+    bottom: 35px !important;
   }
 }
 
