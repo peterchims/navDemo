@@ -529,6 +529,7 @@ header {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     outline: none;
+    font-family: "Montserrat-Light.ttf";
   }
   .btn-demo-submit {
     background: rgb(80, 56, 56);
@@ -593,7 +594,7 @@ header {
   .trade-platform {
     clear: both;
     position: relative;
-    bottom: 300px;
+    bottom: 200px;
     z-index: 1;
   }
   .trade-platform .container .trade-header-content h2 {
@@ -609,7 +610,7 @@ header {
   .trade-platform .container .trade-header-content p {
     text-align: center;
     font-size: 0.6rem;
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto;
     font-weight: lighter;
     padding-top: 10px;
@@ -621,12 +622,25 @@ header {
   .trade-packages .container .trade-expert h2,
   .trade-packages .container .trade-beginner h2 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    color: rgb(80, 56, 56);
+    font-family: "NotoSansJP-Medium.otf";
   }
-  .trade-packages .container .trade-mediate p,
-  .trade-packages .container .trade-expert p,
   .trade-packages .container .trade-beginner p {
     color: rgb(110, 110, 110);
+    text-align: center;
+    font-size: 0.6rem;
+    margin-left: 30px;
+    font-weight: 800;
+    font-family: "Montserrat-Light.ttf";
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .trade-packages .container .trade-mediate p,
+  .trade-packages .container .trade-expert p {
+    color: rgb(110, 110, 110);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
     text-align: center;
     font-size: 0.55rem;
     width: 70vw;
@@ -635,7 +649,7 @@ header {
   .trade-packages .container .trade-expert,
   .trade-packages .container .trade-beginner {
     background: rgb(255, 255, 255);
-    margin-right: 20px;
+    margin-left: 10px;
     width: 80vw;
     box-sizing: border-box;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -648,11 +662,13 @@ header {
     width: 65vw;
     font-size: 1rem;
     font-weight: 300;
+    padding: 10px !important;
   }
   /* Subscribe Responsiveness */
   .subscribe {
-    margin-top: -220px;
-    height: 100vh;
+    margin-top: -150px;
+    height: 90vh;
+    padding: 0px !important;
   }
   .subscribe .subscribe-content h2 {
     color: rgb(219, 219, 219);
@@ -662,14 +678,14 @@ header {
     padding: 15px;
   }
   .subscribe .container .subscribe-content-disp {
-    margin-top: 10px;
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
-    /* padding: 30px !important; */
+    padding: 0px !important;
   }
   .subscribe .container .subscribe-content-disp .con {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
   }
   .footer {
     height: 60vh;
@@ -679,23 +695,39 @@ header {
     flex-direction: column;
   }
   .footer .container .footer-content p {
-    margin-top: 20px;
-    width: 90vw;
-    margin-left: 15px;
+    margin-top: 10px;
+    width: 97%;
+    margin-left: 5px;
     font-size: 0.8rem;
     padding-top: 15px;
-    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #999;
     text-align: left;
   }
   .footer .container .footer-socials {
-    margin-top: 40px;
-    border-top: 1px solid #fff;
+    margin-top: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 10px;
     text-align: center;
   }
+  .footer .container .border {
+    position: relative;
+    top: 20px;
+    border-top: 1px solid rgb(219, 219, 219);
+  }
+  .footer .container .footer-socials p {
+    padding: 0px !important;
+    text-align: center;
+    margin-left: -30px;
+  }
+  .footer .container .footer-socials ul li {
+    position: relative;
+    left: 30px;
+  }
+
   .footer .container .footer-subscribe {
     margin-top: 30px;
   }
