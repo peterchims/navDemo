@@ -742,6 +742,7 @@ header {
   .footer .container .border {
     position: relative;
     top: 20px !important;
+    width: 96% !important;
     border-top: 1px solid rgb(219, 219, 219) !important;
   }
   .footer .container .footer-socials p {
@@ -768,7 +769,7 @@ header {
     left: -105px !important;
   }
   .footer-subscribe .submit-btn {
-    background-color: red;
+    background-color: rgb(36, 228, 29);
     position: relative;
     top: -52px !important;
     right: -170px !important;
