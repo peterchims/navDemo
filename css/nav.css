@@ -510,7 +510,7 @@ header {
     font-size: 1.5rem;
     font-weight: 500;
     z-index: 1;
-    margin-top: 30px;
+    margin-top: -20px;
   }
   .btn-demo {
     background-color: rgb(80, 56, 56);
@@ -547,7 +547,7 @@ header {
     border-radius: 10px;
     z-index: 1;
     left: -370px;
-    top: 130px;
+    top: 70px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
   }
@@ -591,7 +591,7 @@ header {
   .trade-platform {
     clear: both;
     position: relative;
-    bottom: 250px;
+    bottom: 300px;
     z-index: 1;
   }
   .trade-packages .container .trade-beginner .btn-subscribe {
@@ -668,7 +668,7 @@ header {
   }
   /* Subscribe Responsiveness */
   .subscribe {
-    margin-top: -150px;
+    margin-top: -250px;
     height: 90vh;
     padding: 0px !important;
   }
@@ -750,7 +750,4 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    height: 150vh !important;
-  }
 }
