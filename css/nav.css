@@ -476,7 +476,7 @@ header {
 /* Responsiveness for tablets and other devices*/
 @media only screen and (max-width: 600px) {
   header {
-    height: 100vh !important;
+    height: 90vh !important;
   }
   .nav ul {
     width: 100%;
@@ -752,14 +752,5 @@ header {
 @media only screen and (max-width: 768px) {
   header {
     height: 150vh !important;
-  }
-}
-/* Responsiveness for larger devices*/
-@media only screen and(max-width:1200px) {
-  body {
-    background-color: red !important;
-  }
-  header {
-    background: green;
   }
 }
