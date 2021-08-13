@@ -533,7 +533,7 @@ header {
   .btn-demo-submit {
     background: rgb(80, 56, 56);
     position: relative;
-    top: 35px;
+    top: 30px;
     padding: 10px;
     font-size: 1.3rem;
     font-family: "Montserrat-Light.ttf";
@@ -544,10 +544,12 @@ header {
     position: relative;
     padding-right: 20px !important;
     padding-left: 20px !important;
-    padding-bottom: 90px !important;
+    padding-bottom: 0px !important;
     height: 55vh !important;
     border-radius: 10px;
     z-index: 1;
+    left: -370px;
+    top: 100px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
   }
