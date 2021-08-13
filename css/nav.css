@@ -475,9 +475,6 @@ header {
 
 /* Responsiveness for tablets and other devices*/
 @media only screen and (max-width: 600px) {
-  body {
-    background: red !important;
-  }
   header {
     height: 100vh !important;
   }
