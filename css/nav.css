@@ -536,18 +536,20 @@ header {
     position: relative;
     top: 150px;
     left: -370px;
+    padding-bottom: 0px !important;
     height: 55vh !important;
     border-radius: 10px;
     z-index: 1;
   }
   .form-control h3 {
     text-align: left;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
     width: 70vw;
     font-weight: 200;
     padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Roboto-Black.ttf";
   }
   .form-control p {
     color: black;
