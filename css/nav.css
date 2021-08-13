@@ -769,9 +769,9 @@ header {
     left: -105px !important;
   }
   .footer-subscribe .submit-btn {
-    background-color: rgb(36, 228, 29);
+    background-color: rgb(36, 228, 29) !important;
     position: relative;
-    top: -52px !important;
+    top: -50px !important;
     right: -170px !important;
   }
   .footer h3 {
