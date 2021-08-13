@@ -474,13 +474,13 @@ header {
 }
 
 /* Responsiveness for tablets and other devices*/
-@media (max-width: 500px) {
-  header {
-    height: 80vh !important;
+@media only screen and (max-width: 600px) {
+  body {
+    background: red !important;
   }
-}
-
-@media only screen and (max-width: 768px) {
+  header {
+    height: 100vh !important;
+  }
   .nav ul {
     width: 100%;
     border: 0px;
@@ -751,4 +751,18 @@ header {
     right: 50px;
   }
 }
-/* small mobile devices */
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 150vh !important;
+  }
+}
+/* Responsiveness for larger devices*/
+@media only screen and(max-width:1200px) {
+  body {
+    background-color: red !important;
+  }
+  header {
+    background: green;
+  }
+}
