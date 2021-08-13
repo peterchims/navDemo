@@ -752,25 +752,26 @@ header {
 
   .footer .container .footer-subscribe {
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
   }
   .footer-subscribe input[type="email"] {
     padding: 10px !important;
     border: 0px !important;
     outline: hidden !important;
     margin-top: 10px !important;
-    width: 65vw !important;
+    width: 67vw !important;
     position: relative;
     left: -105px !important;
   }
   .footer-subscribe input[type="submit"] {
     background: red;
     position: absolute;
-    left: 150px !important;
+    left: 170px !important;
+    bottom: 10px;
   }
   .footer h3 {
     position: relative;
-    bottom: 35px !important;
+    bottom: 15px !important;
   }
 }
 
