@@ -716,7 +716,7 @@ header {
   }
   .footer .container .footer-content p {
     margin-top: 10px !important;
-    width: 97% !important;
+    width: 94% !important;
     margin-left: 5px !important;
     font-size: 0.8rem !important;
     padding-top: 15px !important;
@@ -739,13 +739,13 @@ header {
     left: 100px;
     bottom: 20px;
   }
-  /* .footer .container .border {
+  .footer .container .border {
     position: relative;
     top: 20px !important;
     left: 30px !important;
-    width: 80% !important;
+    width: 85% !important;
     border-top: 1px solid rgb(219, 219, 219) !important;
-  } */
+  }
   .footer .container .footer-socials p {
     padding: 0px !important;
     text-align: center;
@@ -753,7 +753,8 @@ header {
   }
   .footer .container .footer-socials ul li {
     position: relative;
-    left: 30px !important;
+    left: 40px !important;
+    width: 40% !important;
   }
 
   .footer .container .footer-subscribe {
@@ -773,7 +774,7 @@ header {
     background-color: rgb(255, 82, 59) !important;
     position: relative;
     top: -51px !important;
-    right: -172px !important;
+    right: -162px !important;
   }
   .footer h3 {
     position: relative;
@@ -1055,7 +1056,7 @@ header {
   .footer .container .border {
     position: relative;
     top: 20px;
-    width: 105vw;
+    width: 85% !important;
     border-top: 1px solid rgb(219, 219, 219);
   }
   .footer .container .footer-socials p {
