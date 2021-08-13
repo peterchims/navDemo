@@ -476,7 +476,7 @@ header {
 /* Responsiveness for tablets and other devices*/
 @media only screen and (max-width: 600px) {
   header {
-    height: 90vh !important;
+    height: 85vh !important;
   }
   .nav ul {
     width: 100%;
