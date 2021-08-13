@@ -739,13 +739,13 @@ header {
     left: 100px;
     bottom: 20px;
   }
-  .footer .container .border {
+  /* .footer .container .border {
     position: relative;
     top: 20px !important;
     left: 30px !important;
     width: 80% !important;
     border-top: 1px solid rgb(219, 219, 219) !important;
-  }
+  } */
   .footer .container .footer-socials p {
     padding: 0px !important;
     text-align: center;
