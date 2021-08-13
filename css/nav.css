@@ -530,33 +530,66 @@ header {
     border-bottom-left-radius: 0px;
     outline: none;
   }
+  .btn-demo-submit {
+    background: rgb(80, 56, 56);
+    position: relative;
+    top: 35px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light.ttf";
+  }
   .form-control {
     display: flex;
     flex-direction: column;
     position: relative;
     top: 150px;
     left: -370px;
+    padding: 0px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
     padding-bottom: 0px !important;
     height: 55vh !important;
     border-radius: 10px;
     z-index: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   }
+
+  /* .form-control h3 {
+    text-align: left;
+    font-size: 1.6rem;
+    width: 25vw;
+    position: relative;
+    top: 5px;
+    font-weight: 200;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Roboto-Black.ttf";
+  } */
+
   .form-control h3 {
     text-align: left;
     font-size: 1.3rem;
     width: 70vw;
+    position: relative;
+    top: 12px;
     font-weight: 200;
-    padding-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
     font-family: "Roboto-Black.ttf";
   }
   .form-control p {
     color: black;
     font-weight: 100;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     padding-bottom: 10px;
     text-transform: capitalize;
+    font-family: "Montserrat-Light.ttf";
+  }
+  .form-control form input {
+    position: relative;
+    top: 15px;
   }
   .content-header::after,
   .content-header::before {
